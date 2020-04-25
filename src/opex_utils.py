@@ -60,7 +60,7 @@ def calculate_cost_per_meter(operations):
     return well_costs
 
 
-def flag_anomalies(operations, threshold_pct=50):
+def flag_anomalies(operations, threshold_pct=15):
     """
     Пометка аномальных отклонений план/факт.
     
